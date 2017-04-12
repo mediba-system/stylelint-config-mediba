@@ -17,7 +17,7 @@ Set your `stylelint` config.
 
 ```js
 {
-  "extends": "stylelint-config-mediba",
+  "extends": "@mediba/stylelint-config-mediba",
   "rules": {
     // If you customize rules, override here.
   }
