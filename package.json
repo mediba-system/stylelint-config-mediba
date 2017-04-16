@@ -6,7 +6,9 @@
   "scripts": {
     "release": "npmpub",
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "prettier": "prettier --write --single-quote --trailing-comma all --semi false '__test__/**/*.js' '*.js'",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -37,5 +39,11 @@
   "jest": {
     "testEnvironment": "node",
     "verbose": true
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier",
+      "git add"
+    ]
   }
 }
