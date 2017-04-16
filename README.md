@@ -8,7 +8,7 @@ npm: [![npm version](https://badge.fury.io/js/%40mediba%2Fstylelint-config-medib
 ## Installation:
 
 ```bash
-$ yarn add @mediba/stylelint-config-mediba --dev
+$ yarn add @mediba/stylelint-config --dev
 ```
 
 ## Usage:
@@ -17,7 +17,7 @@ Set your `stylelint` config.
 
 ```js
 {
-  "extends": "@mediba/stylelint-config-mediba",
+  "extends": "@mediba/stylelint-config",
   "rules": {
     // If you customize rules, override here.
   }

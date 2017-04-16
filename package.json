@@ -1,5 +1,5 @@
 {
-  "name": "@mediba/stylelint-config-mediba",
+  "name": "@mediba/stylelint-config",
   "version": "0.5.1",
   "description": "A stylelint config at mediba",
   "main": "index.js",
