@@ -1,4 +1,4 @@
-# .style-config {
+# .stylelint-config {
 
 **/\* stylelint config at [mediba](http://www.mediba.jp/) \*/**  
 circle-ci: [![CircleCI](https://circleci.com/gh/mediba-system/stylelint-config.svg?style=svg)](https://circleci.com/gh/mediba-system/stylelint-config);  
