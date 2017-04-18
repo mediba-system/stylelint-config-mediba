@@ -21,6 +21,9 @@
   ],
   "author": "Yu Kanamori",
   "license": "MIT",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
   "dependencies": {
     "stylelint-order": "^0.4.3"
   },
