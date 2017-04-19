@@ -4,7 +4,6 @@
   "description": "A stylelint config at mediba",
   "main": "index.js",
   "scripts": {
-    "release": "npmpub",
     "test": "jest",
     "watch": "jest --watch",
     "prettier": "prettier --write --single-quote --trailing-comma all --semi false '__test__/**/*.js' '*.js'",
@@ -28,11 +27,9 @@
     "stylelint-order": "^0.4.3"
   },
   "devDependencies": {
-    "github-release-from-changelog": "^1.2.1",
     "husky": "^0.13.3",
     "jest": "^19.0.2",
     "lint-staged": "^3.4.0",
-    "npmpub": "^3.1.0",
     "prettier": "^1.1.0",
     "stylelint": "^7.10.1"
   },
