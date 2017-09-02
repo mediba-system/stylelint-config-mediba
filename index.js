@@ -40,7 +40,12 @@ module.exports = {
         ignore: ['consecutive-duplicates-with-different-values'],
       },
     ],
-    'declaration-block-no-redundant-longhand-properties': true,
+    'declaration-block-no-redundant-longhand-properties': [
+      true,
+      {
+        ignoreShorthands: ['flex'],
+      },
+    ],
     'declaration-block-no-shorthand-property-overrides': true,
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
